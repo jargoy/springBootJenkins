@@ -17,6 +17,7 @@ class SpringBootJenkinsApplicationTests {
 	public void contextLoads() {
 		logger.info("application is testing...");
 		logger.info("application is testing second...");
+		logger.info("application is testing (add smtp to jenkins)...");
 		
 		assertEquals(true, true);
 	}
